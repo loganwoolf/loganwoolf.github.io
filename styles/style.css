@@ -53,10 +53,8 @@ section {
   width: 20rem;
 }
 .project-card > img {
-
-}
-.title {
-
+  width: 100%;
+  height: auto;
 }
 .subtitle {
 font-size: 80%;
