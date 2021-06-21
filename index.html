@@ -15,19 +15,29 @@
 		<p>Web Developer</p>
 	</div>
 	<nav>
-		<a href="#">About Me</a>
-		<a href="#">My Projects</a>
+		<a href="#about">About Me</a>
+		<a href="#projects">My Projects</a>
 		<a href="#">Writings</a>
 		<a href="#">Resources</a>
 		<a href="#">Contact Me</a>
 	</nav>
 	<section>
 		<div id="about">
-			<h2>About Me</h2>
+			<h2 name="about">About Me</h2>
 			<p>I am a web developer from Lethbridge, AB who loves to build things and is always learning.</p>
 		</div>
-		<h2>My Projects</h2>
+		<h2 name="projects">My Projects</h2>
+
 		<div id="projects">
+
+			<div class="project-card">
+				<img src="" alt="">
+				<p class="title">Huddle Landing Page</p>
+				<p class="subtitle">a Frontend Mentor project</p>
+				<div class="link-button">
+					<a href="https://loganwoolf.github.io/FM-Huddle-landing-page/" class="view-link">View</a>
+					<a href="https://github.com/loganwoolf/FM-Huddle-landing-page" class="repo-link">GitHub Repo</a></div>
+			</div>
 
 			<div class="project-card">
 				<img src="" alt="">
@@ -79,11 +89,18 @@
 				</div>
 			</div>
 
-
-
-
-
-
+			<!-- Project Card Template -->
+			<!--
+				<div class="project-card">
+					<img src="" alt="">
+					<p class="title"></p>
+					<p class="subtitle"></p>
+					<div class="link-button">
+						<a href="" class="view-link">View</a>
+						<a href="" class="repo-link">GitHub Repo</a></div>
+				</div>
+			-->
+			<!-- Project Card Template -->
 
 
 
@@ -93,6 +110,7 @@
 
 
 		</div>
+		<div class="resources"></div>
 	</section>
 
 	<script src="./scripts/script.js">
