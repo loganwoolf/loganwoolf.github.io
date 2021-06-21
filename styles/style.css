@@ -19,7 +19,7 @@ nav {
 
 nav > a {
   color: var(--nav-font);
-  text-decoration-line: none;;
+  text-decoration-line: none;
 }
 
 #welcome {
@@ -53,8 +53,13 @@ section {
   width: 20rem;
 }
 .project-card > img {
+  margin: auto 0;
   width: 100%;
   height: auto;
+}
+.title {
+  margin-top: 1em;
+
 }
 .subtitle {
 font-size: 80%;
