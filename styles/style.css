@@ -9,6 +9,8 @@ body {
 }
 
 nav {
+  position: sticky;
+  top: 0;
   display: flex;
   flex-direction: row;
   height: 2.5rem;
