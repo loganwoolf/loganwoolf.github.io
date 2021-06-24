@@ -38,6 +38,9 @@ nav > a {
 section {
   margin: 70px;
 }
+h2 {
+  scroll-margin-top: 2.5em;
+}
 
 #projects {
   display: flex;
