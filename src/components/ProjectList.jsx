@@ -17,14 +17,14 @@ const ProjectList = () => {
       })
       .then((jsonData) => {
         console.log({ jsonData });
-        setProjects(jsonData);
+        setProjects(jsonData.projects);
       });
   };
 
   useEffect(() => getProjects(), []);
 
-  const componentArr = projects.map((project) => (
-    <ProjectListItem {...project} />
+  const componentArr = projects.map((project, index) => (
+    <ProjectListItem key={index} {...project} />
   ));
 
   return <div className="project-list">{componentArr}</div>;
