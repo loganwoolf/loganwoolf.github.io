@@ -1,0 +1,65 @@
+{ "projects": [
+  {
+    "title": "Huddle Home Page",
+    "sub": "a Frontend Mentor Project",
+    "image": "https://github.com/loganwoolf/huddle-alternating/raw/main/screenshots/social.png",
+    "link": "https://loganwoolf.github.io/huddle-alternating/",
+    "repo": "https://github.com/loganwoolf/huddle-alternating"
+  },
+  {
+    "title": "Fylo Storage Component",
+    "sub": "a Frontend Mentor Project",
+    "image": "https://github.com/loganwoolf/FM-storage-component/raw/main/screenshots/social.png",
+    "link": "https://loganwoolf.github.io/FM-storage-component/",
+    "repo": "https://github.com/loganwoolf/FM-storage-component"
+  },
+  {
+    "title": "Testimonials Grid",
+    "sub": "a Frontend Mentor project",
+    "image": "https://github.com/loganwoolf/FM-testimonials-grid/raw/main/screenshots/desktop.png",
+    "link": "https://loganwoolf.github.io/FM-testimonials-grid/",
+    "repo": "https://github.com/loganwoolf/FM-testimonials-grid"
+  },
+  {
+    "title": "Huddle Landing Page",
+    "sub": "a Frontend Mentor project",
+    "image": "https://raw.githubusercontent.com/loganwoolf/FM-Huddle-landing-page/main/screenshots/desktop.png",
+    "link": "https://loganwoolf.github.io/FM-Huddle-landing-page/",
+    "repo": "https://github.com/loganwoolf/FM-Huddle-landing-page"
+  },
+  {
+    "title": "Inspirational Quote Machine [React]",
+    "sub": "a FreeCodeCamp project",
+    "image": "https://assets.codepen.io/4466524/internal/screenshots/pens/NWdezBQ.default.png",
+    "link": "https://codepen.io/loganwoolf/pen/NWdezBQ",
+    "repo": "https://codepen.io/loganwoolf/pen/NWdezBQ"
+  },
+  {
+    "title": "Responsive Preview Card",
+    "sub": "a Frontend Mentor project",
+    "image": "https://raw.githubusercontent.com/loganwoolf/FM-preview-card/main/screenshots/desktop.png",
+    "link": "https://loganwoolf.github.io/FM-preview-card/",
+    "repo": "https://github.com/loganwoolf/FM-preview-card"
+  },
+  {
+    "title": "Responsive 3-Column Preview Card",
+    "sub": "a Frontend Mentor project",
+    "image": "https://raw.githubusercontent.com/loganwoolf/FM-3-column-preview/main/screenshots/desktop.png",
+    "link": "https://loganwoolf.github.io/FM-3-column-preview/",
+    "repo": "https://github.com/loganwoolf/FM-3-column-preview"
+  },
+  {
+    "title": "Profile Card",
+    "sub": "a Frontend Mentor project",
+    "image": "https://raw.githubusercontent.com/loganwoolf/FM-profile-card/main/screenshots/profile-card.png",
+    "link": "https://loganwoolf.github.io/FM-profile-card/",
+    "repo": "https://github.com/loganwoolf/FM-profile-card"
+  },
+  {
+    "title": "Google.com Front Page Clone",
+    "sub": "an Odin Project project",
+    "image": "https://raw.githubusercontent.com/loganwoolf/google-homepage/main/screenshots/desktop.png",
+    "link": "https://loganwoolf.github.io/google-homepage/",
+    "repo": "https://github.com/loganwoolf/google-homepage/"
+  }
+]}
