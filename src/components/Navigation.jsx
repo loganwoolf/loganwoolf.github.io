@@ -1,11 +1,13 @@
 const Navigation = (props) => {
+  const { transition } = props
+  
   return (
     <nav>
-      <a href="#about-me">About Me</a>
-      <a href="#my-projects">My Projects</a>
-      <a href="#writings">Writings</a>
-      <a href="#resources">Resources</a>
-      <a href="#contact-me">Contact Me</a>
+      <button onClick={() => transition('ABOUT')}>About Me</button>
+      <button onClick={() => transition('PROJECTS')}>My Projects</button>
+      <button onClick={() => transition('WRITING')}>Writings</button>
+      <button onClick={() => transition('RESOURCES')}>Resources</button>
+      <button onClick={() => transition('CONTACT')}>Contact Me</button>
     </nav>
   );
 };
