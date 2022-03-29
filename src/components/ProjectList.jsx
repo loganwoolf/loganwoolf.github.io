@@ -12,11 +12,9 @@ const ProjectList = () => {
       },
     })
       .then((response) => {
-        console.log({ response });
         return response.json();
       })
       .then((jsonData) => {
-        console.log({ jsonData });
         setProjects(jsonData.projects);
       });
   };
