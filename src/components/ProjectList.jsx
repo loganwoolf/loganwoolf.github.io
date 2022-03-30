@@ -25,7 +25,7 @@ const ProjectList = () => {
     <ProjectListItem key={index} {...project} />
   ));
 
-  return <main>{componentArr}</main>;
+  return <main id="projects">{componentArr}</main>;
 };
 
 export default ProjectList;
