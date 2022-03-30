@@ -7,7 +7,6 @@ const Navigation = (props) => {
       <button onClick={() => transition('PROJECTS')}>My Projects</button>
       <button onClick={() => transition('WRITING')}>Writings</button>
       <button onClick={() => transition('RESOURCES')}>Resources</button>
-      <button onClick={() => transition('CONTACT')}>Contact Me</button>
     </nav>
   );
 };

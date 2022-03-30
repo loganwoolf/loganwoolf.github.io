@@ -2,6 +2,8 @@ import Header from "./components/Header";
 import Navigation from "./components/Navigation";
 import About from "./components/About";
 import ProjectList from "./components/ProjectList";
+import Writing from "./components/Writing";
+import Resources from "./components/Resources";
 
 import useView from "./hooks/useView";
 
@@ -16,9 +18,8 @@ function App() {
       <Navigation transition={transition} />
       {view === "ABOUT" && <About />}
       {view === "PROJECTS" && <ProjectList />}
-      {view === "WRITING" && <About />}
-      {view === "RESOURCES" && <ProjectList />}
-      {view === "CONTACT" && <About />}
+      {view === "WRITING" && <Writing />}
+      {view === "RESOURCES" && <Resources />}
     </>
   );
 }
