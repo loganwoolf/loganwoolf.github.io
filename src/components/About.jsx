@@ -1,10 +1,32 @@
+import { useState, useEffect } from "react";
+
 const About = () => {
+  const [body, setBody] = useState([]);
+
+  const getText = () => {
+    fetch("/data/about.json", {
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+    })
+      .then((response) => {
+        return response.json();
+      })
+      .then((jsonData) => {
+        setBody(jsonData.about);
+      });
+  };
+
+  useEffect(() => getText(), []);
+
+  const paragraphs = body.map((paragraph) => <p>{paragraph}</p>);
+
   return (
-    <div id="about">
-      <h2 id="about-me">About Me</h2>
-      <p>I am a full stack web developer from Lethbridge, AB. 🇨🇦</p>
-      <p>I love to build things and am always learning.</p>
-    </div>
+    <main id="about">
+      <h2>About Me</h2>
+      {paragraphs}
+    </main>
   );
 };
 
