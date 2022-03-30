@@ -1,5 +1,12 @@
 { "projects": [
   {
+    "title": "LoyalTree",
+    "sub": "a gift card and loyalty platform",
+    "image": "https://camo.githubusercontent.com/e895db126f5d4d1bfb3f8eb29a7ebe479e05a9341f2200b0696ed6d1ed380e74/68747470733a2f2f6d65646961312e67697068792e636f6d2f6d656469612f4d36376e4c6449784f4c7345625a307050482f67697068792e6769663f6369643d373930623736313162346437323665396230633666666662326362613835666465313661366563303863313033656439267269643d67697068792e6769662663743d67",
+    "link": "https://github.com/loganwoolf/loyaltree",
+    "repo": "https://github.com/loganwoolf/loyaltree"
+  },
+  {
     "title": "Huddle Home Page",
     "sub": "a Frontend Mentor Project",
     "image": "https://github.com/loganwoolf/huddle-alternating/raw/main/screenshots/social.png",
