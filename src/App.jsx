@@ -14,8 +14,7 @@ function App() {
 
   return (
     <>
-      <Header />
-      <Navigation transition={transition} />
+      <Header transition={transition} />
       {view === "ABOUT" && <About />}
       {view === "PROJECTS" && <ProjectList />}
       {view === "WRITING" && <Writing />}

@@ -1,3 +1,6 @@
+import './Header.css';
+
+import Navigation from './Navigation';
 import QuickLinks from "./QuickLinks";
 
 const Header = (props) => {
@@ -6,6 +9,7 @@ const Header = (props) => {
       <h1>Logan Woolf</h1>
       <p>Full Stack Web Developer</p>
       <QuickLinks />
+      <Navigation transition={props.transition} />
     </header>
   );
 };
