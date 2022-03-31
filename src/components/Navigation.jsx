@@ -1,3 +1,5 @@
+import './Navigation.css'
+
 const Navigation = (props) => {
   const { transition } = props
   
