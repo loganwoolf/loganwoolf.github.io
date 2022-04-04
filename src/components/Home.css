@@ -1,0 +1,18 @@
+#home {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+#home h1 {
+  margin: unset;
+}
+#home .separator {
+  width: 9ch;
+  border-bottom: 0.125rem solid white;
+  margin: 2rem 0 2.4rem;
+}
+#home p {
+  margin: unset;
+  font-style: italic;
+}

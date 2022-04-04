@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import FeaturedProject from "./FeaturedProject"
 import ProjectListItem from "./ProjectListItem";
 
 const ProjectList = () => {
@@ -28,6 +29,7 @@ const ProjectList = () => {
   return (
     <main id="projects">
       <h2>Projects</h2>
+      <FeaturedProject />
       {componentArr}
     </main>
   );

@@ -1,14 +1,28 @@
-import './Navigation.css'
+import SocialLinks from "./SocialLinks";
+
+import "./Navigation.css";
 
 const Navigation = (props) => {
-  const { transition } = props
-  
   return (
     <nav>
-      <button onClick={() => transition('ABOUT')}>About Me</button>
-      <button onClick={() => transition('PROJECTS')}>My Projects</button>
-      <button onClick={() => transition('WRITING')}>Writings</button>
-      <button onClick={() => transition('RESOURCES')}>Resources</button>
+      <ul>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#writing">Writing</a>
+        </li>
+        <li>
+          <a href="#resources">Resources</a>
+        </li>
+      </ul>
+      <SocialLinks />
     </nav>
   );
 };
