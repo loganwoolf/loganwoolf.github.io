@@ -27,11 +27,11 @@ const ProjectList = () => {
   ));
 
   return (
-    <main id="projects">
+    <section id="projects">
       <h2>Projects</h2>
       <FeaturedProject />
       {componentArr}
-    </main>
+    </section>
   );
 };
 

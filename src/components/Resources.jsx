@@ -1,8 +1,8 @@
 const Resources = () => {
   return (
-    <main id="resources">
+    <section id="resources">
       <h2>Resources</h2>
-    </main>
+    </section>
   );
 };
 

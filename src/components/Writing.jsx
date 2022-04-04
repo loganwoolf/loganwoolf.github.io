@@ -1,6 +1,6 @@
 const Writing = () => {
   return (
-    <main id="writing">
+    <section id="writing">
       <h2>Writing</h2>
       <ul>
         <li>
@@ -10,7 +10,7 @@ const Writing = () => {
           on Medium
         </li>
       </ul>
-    </main>
+    </section>
   );
 };
 

@@ -23,10 +23,10 @@ const About = () => {
   const paragraphs = body.map((paragraph) => <p>{paragraph}</p>);
 
   return (
-    <main id="about">
+    <section id="about">
       <h2>About Me</h2>
       {paragraphs}
-    </main>
+    </section>
   );
 };
 
