@@ -1,5 +1,7 @@
 import "./FeaturedProject.css";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const FeaturedProject = (props) => {
   return (
     <article id="featured-project">
@@ -48,6 +50,30 @@ const FeaturedProject = (props) => {
         <p>
           Easily find businesses or gift cards using the filter element. Search
           for store names or category tags. Results are displayed instantly.
+        </p>
+      </div>
+      <div className="feature-full-width">
+        <p>Built using</p>
+        <div>
+          <p>Postgres</p>
+          <FontAwesomeIcon icon="fa-solid fa-database" />
+          <p>Node</p>
+          <FontAwesomeIcon icon="fa-brands fa-node-js" />
+          <p>Express</p>
+          <FontAwesomeIcon icon="fa-brands fa-react" />
+          <p>React</p>
+        </div>
+        <p>
+          See it live{" "}
+          <a href="https://loyaltree-dev.herokuapp.com">
+            <FontAwesomeIcon icon="fa-solid fa-earth-americas" /> Heroku
+          </a>
+        </p>
+        <p>
+          See the code{" "}
+          <a href="https://github.com/loganwoolf/loyaltree">
+            <FontAwesomeIcon icon="fa-brands fa-github" /> Github
+          </a>
         </p>
       </div>
     </article>
