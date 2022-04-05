@@ -17,10 +17,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#home {
+  scroll-margin-top: 5rem;
+}
+
 section {
   scroll-margin-top: 5rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  max-width: 960px;
 }
 
 code {
