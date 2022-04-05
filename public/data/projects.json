@@ -1,72 +1,32 @@
-{ "projects": [
-  {
-    "title": "LoyalTree",
-    "sub": "a gift card and loyalty platform",
-    "image": "https://camo.githubusercontent.com/e895db126f5d4d1bfb3f8eb29a7ebe479e05a9341f2200b0696ed6d1ed380e74/68747470733a2f2f6d65646961312e67697068792e636f6d2f6d656469612f4d36376e4c6449784f4c7345625a307050482f67697068792e6769663f6369643d373930623736313162346437323665396230633666666662326362613835666465313661366563303863313033656439267269643d67697068792e6769662663743d67",
-    "link": "https://github.com/loganwoolf/loyaltree",
-    "repo": "https://github.com/loganwoolf/loyaltree"
-  },
-  {
-    "title": "Huddle Home Page",
-    "sub": "a Frontend Mentor Project",
-    "image": "https://github.com/loganwoolf/huddle-alternating/raw/main/screenshots/social.png",
-    "link": "https://loganwoolf.github.io/huddle-alternating/",
-    "repo": "https://github.com/loganwoolf/huddle-alternating"
-  },
-  {
-    "title": "Fylo Storage Component",
-    "sub": "a Frontend Mentor Project",
-    "image": "https://github.com/loganwoolf/FM-storage-component/raw/main/screenshots/social.png",
-    "link": "https://loganwoolf.github.io/FM-storage-component/",
-    "repo": "https://github.com/loganwoolf/FM-storage-component"
-  },
-  {
-    "title": "Testimonials Grid",
-    "sub": "a Frontend Mentor project",
-    "image": "https://github.com/loganwoolf/FM-testimonials-grid/raw/main/screenshots/desktop.png",
-    "link": "https://loganwoolf.github.io/FM-testimonials-grid/",
-    "repo": "https://github.com/loganwoolf/FM-testimonials-grid"
-  },
-  {
-    "title": "Huddle Landing Page",
-    "sub": "a Frontend Mentor project",
-    "image": "https://raw.githubusercontent.com/loganwoolf/FM-Huddle-landing-page/main/screenshots/desktop.png",
-    "link": "https://loganwoolf.github.io/FM-Huddle-landing-page/",
-    "repo": "https://github.com/loganwoolf/FM-Huddle-landing-page"
-  },
-  {
-    "title": "Inspirational Quote Machine [React]",
-    "sub": "a FreeCodeCamp project",
-    "image": "https://assets.codepen.io/4466524/internal/screenshots/pens/NWdezBQ.default.png",
-    "link": "https://codepen.io/loganwoolf/pen/NWdezBQ",
-    "repo": "https://codepen.io/loganwoolf/pen/NWdezBQ"
-  },
-  {
-    "title": "Responsive Preview Card",
-    "sub": "a Frontend Mentor project",
-    "image": "https://raw.githubusercontent.com/loganwoolf/FM-preview-card/main/screenshots/desktop.png",
-    "link": "https://loganwoolf.github.io/FM-preview-card/",
-    "repo": "https://github.com/loganwoolf/FM-preview-card"
-  },
-  {
-    "title": "Responsive 3-Column Preview Card",
-    "sub": "a Frontend Mentor project",
-    "image": "https://raw.githubusercontent.com/loganwoolf/FM-3-column-preview/main/screenshots/desktop.png",
-    "link": "https://loganwoolf.github.io/FM-3-column-preview/",
-    "repo": "https://github.com/loganwoolf/FM-3-column-preview"
-  },
-  {
-    "title": "Profile Card",
-    "sub": "a Frontend Mentor project",
-    "image": "https://raw.githubusercontent.com/loganwoolf/FM-profile-card/main/screenshots/profile-card.png",
-    "link": "https://loganwoolf.github.io/FM-profile-card/",
-    "repo": "https://github.com/loganwoolf/FM-profile-card"
-  },
-  {
-    "title": "Google.com Front Page Clone",
-    "sub": "an Odin Project project",
-    "image": "https://raw.githubusercontent.com/loganwoolf/google-homepage/main/screenshots/desktop.png",
-    "link": "https://loganwoolf.github.io/google-homepage/",
-    "repo": "https://github.com/loganwoolf/google-homepage/"
-  }
-]}
+{
+  "projects": [
+    {
+      "title": "Smart Personal Todo List",
+      "sub": "A full stack todo app using jQuery, Node, Express and Postgres that can automatically classify your tasks by matching results from several APIs",
+      "image": "images/projects/smart-todo.png",
+      "link": "https://loganwoolf.github.io/agency-landing",
+      "repo": "https://github.com/loganwoolf/smart-todo-midterm"
+    },
+    {
+      "title": "Sunnyside Agency Landing Page",
+      "sub": "An HTML/CSS project aiming to replicate a design with pixel perfect accuracy.",
+      "image": "images/projects/agency-landing.png",
+      "link": "https://loganwoolf.github.io/agency-landing",
+      "repo": "https://github.com/loganwoolf/agency-landing"
+    },
+    {
+      "title": "tinyAPP URL Shortener",
+      "sub": "A server rendered EJS template app where users can shorten URLs and see their visitation statistics.",
+      "image": "images/projects/tinyAPP.png",
+      "link": "https://loganwoolf.github.io/agency-landing",
+      "repo": "https://github.com/loganwoolf/agency-landing"
+    },
+    {
+      "title": "World's Fastest React Dictionary",
+      "sub": "A React app that delivers quick definitions by querying a dictionary API with every keystroke.",
+      "image": "images/projects/dictionary.png",
+      "link": "https://lw-dictionary.netlify.app/",
+      "repo": "https://github.com/loganwoolf/react-dictionary"
+    }
+  ]
+}
