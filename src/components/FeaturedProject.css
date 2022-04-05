@@ -20,16 +20,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
-
 #featured-project > .feature-text > p {
   max-width: 45ch;
   line-height: 1.6rem;
 }
-#featured-project > .feature-text > p:nth-child(odd) {
-  margin-left: auto;
-  margin-right: 2rem;
-}
+
 #featured-project > .feature-collage {
   padding: var(--offset) 0;
   display: flex;
@@ -49,4 +46,16 @@
 #featured-project > .feature-collage > img:last-child {
   margin-top: var(--offset);
   margin-bottom: calc(var(--offset) * -1);
+}
+
+#featured-project > .feature-full-width {
+  text-align: center;
+  grid-column: span 5;
+}
+#featured-project > .feature-full-width > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
