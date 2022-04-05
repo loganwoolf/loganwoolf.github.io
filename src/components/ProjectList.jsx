@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
-import FeaturedProject from "./FeaturedProject"
+import FeaturedProject from "./FeaturedProject";
 import ProjectListItem from "./ProjectListItem";
+
+import "./ProjectList.css";
 
 const ProjectList = () => {
   const [projects, setProjects] = useState([]);
@@ -30,7 +32,7 @@ const ProjectList = () => {
     <section id="projects">
       <h2>Projects</h2>
       <FeaturedProject />
-      {componentArr}
+      <div className="project-list">{componentArr}</div>
     </section>
   );
 };
