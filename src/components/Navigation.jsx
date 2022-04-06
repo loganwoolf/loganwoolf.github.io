@@ -15,12 +15,12 @@ const Navigation = (props) => {
         <li>
           <a href="#about">About</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#writing">Writing</a>
         </li>
         <li>
           <a href="#resources">Resources</a>
-        </li>
+        </li> */}
       </ul>
       <SocialLinks />
     </nav>
