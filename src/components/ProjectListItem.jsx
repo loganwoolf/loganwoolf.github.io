@@ -1,4 +1,4 @@
-import "./ProjectListItem.css"
+import "./ProjectListItem.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -10,8 +10,14 @@ const ProjectListItem = (props) => {
       <h3>{title}</h3>
       <p>{sub}</p>
       <footer>
-        <a href={link}><FontAwesomeIcon icon="fa-solid fa-earth-americas" /> Live site</a>
-        <a href={repo}><FontAwesomeIcon icon="fa-brands fa-github" /> GitHub</a>
+        {link && (
+          <a href={link}>
+            <FontAwesomeIcon icon="fa-solid fa-earth-americas" /> Live site
+          </a>
+        )}
+        <a href={repo}>
+          <FontAwesomeIcon icon="fa-brands fa-github" /> GitHub
+        </a>
       </footer>
     </article>
   );
