@@ -3,15 +3,30 @@
   scrollbar-width: none;
   scroll-behavior: smooth;
   --background: hsl(206.3, 100%, 6.3%);
+  --light-text: lightgrey;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Oswald", sans-serif;
 }
 
 h2 {
   text-align: right;
-  margin: 2rem;
+  padding: 2rem;
+  margin: 0;
+}
+.wide-bg {
+  width: 100vw;
+}
+
+.dark {
+  background-color: var(--background);
+  color: var(--light-text);
 }
 
 body::-webkit-scrollbar {
@@ -28,15 +43,16 @@ body {
 }
 
 #home {
-  scroll-margin-top: 5rem;
+  scroll-margin-top: 3rem;
 }
 
 section {
-  scroll-margin-top: 5rem;
+  scroll-margin-top: 3rem;
   margin: 0 auto;
   padding-left: 2rem;
   padding-right: 2rem;
   max-width: 960px;
+  min-height: 100vh;
 }
 
 code {

@@ -12,7 +12,6 @@
   max-width: calc(100% - 4rem);
   font-family: 'Oswald', sans-serif;
   margin: 8rem 6rem;
-  color: lightgray;
 }
 #home > .name > h1 {
   font-size: 7rem;

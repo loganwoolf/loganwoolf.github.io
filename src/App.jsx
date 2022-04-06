@@ -16,11 +16,21 @@ function App() {
   return (
     <>
       <Navigation />
-      <Home />
-      <ProjectList />
-      <About />
-      <Writing />
-      <Resources />
+      <div className="dark">
+        <Home />
+      </div>
+      <div className="wide-bg">
+        <ProjectList />
+      </div>
+      <div className="wide-bg dark">
+        <About />
+      </div>
+      <div className="wide-bg">
+        <Writing />
+      </div>
+      <div className="wide-bg dark">
+        <Resources />
+      </div>
     </>
   );
 }
