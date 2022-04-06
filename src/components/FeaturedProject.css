@@ -21,6 +21,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: calc(var(--offset) * 0.5);
+}
+#featured-project > .feature-text > h3 {
+  font-size: 3rem;
+  align-self: flex-start;
+  margin: unset;
 }
 #featured-project > .feature-text > p {
   max-width: 45ch;
@@ -38,7 +44,7 @@
   margin-right: calc(var(--offset) * -0.5);
   border-radius: 0.5rem;
   box-shadow: 0 0 1rem black;
-  max-width: 44% /* needed for chrome, not firefox */
+  max-width: 44%; /* needed for chrome, not firefox */
 }
 #featured-project > .feature-collage > img:first-child {
   margin-top: calc(var(--offset) * -1);
