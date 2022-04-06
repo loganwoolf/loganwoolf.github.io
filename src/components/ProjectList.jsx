@@ -30,7 +30,9 @@ const ProjectList = () => {
 
   return (
     <section id="projects">
+      <h2>Featured Project</h2>
       <FeaturedProject />
+      <h2>More Projects</h2>
       <div className="project-list">{componentArr}</div>
     </section>
   );

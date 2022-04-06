@@ -2,13 +2,13 @@
   "projects": [
     {
       "title": "Smart Personal Todo List",
-      "sub": "A full stack todo app using jQuery, Node, Express and Postgres that can automatically classify your tasks by matching results from several APIs",
+      "sub": "A full stack todo app using jQuery, Node, Express and Postgres that can automatically classify tasks by analyzing results from several APIs",
       "image": "images/projects/smart-todo.png",
       "link": "https://loganwoolf.github.io/agency-landing",
       "repo": "https://github.com/loganwoolf/smart-todo-midterm"
     },
     {
-      "title": "Sunnyside Agency Landing Page",
+      "title": "Sunnyside Agency Landing",
       "sub": "An HTML/CSS project aiming to replicate a design with pixel perfect accuracy.",
       "image": "images/projects/agency-landing.png",
       "link": "https://loganwoolf.github.io/agency-landing",
