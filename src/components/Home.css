@@ -1,0 +1,31 @@
+#home {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url("/public/blob-scene-haikei.svg");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#home > .name {
+  max-width: calc(100% - 4rem);
+  font-family: 'Oswald', sans-serif;
+  margin: 8rem 6rem;
+}
+#home > .name > h1 {
+  font-size: 7rem;
+  margin: unset;
+}
+#home > .name > .separator {
+  width: 16rem;
+  border-bottom: 0.3rem solid lightgray;
+  margin: 2rem 0 3rem;
+}
+#home > .name > h2 {
+  font-size: 3.3rem;
+  margin: unset;
+  padding: unset;
+  font-style: italic;
+  text-align: unset;
+}

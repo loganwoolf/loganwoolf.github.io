@@ -1,0 +1,68 @@
+#featured-project {
+  --offset: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: var(--offset);
+  width: 960px;
+  margin: 4rem auto;
+}
+
+#featured-project > .feature-image {
+  max-height: 25rem;
+  box-shadow: 0 0 1rem black;
+  grid-column: span 2;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+}
+
+#featured-project > .feature-text {
+  grid-column: span 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: calc(var(--offset) * 0.5);
+}
+#featured-project > .feature-text > h3 {
+  font-size: 3rem;
+  align-self: flex-start;
+  margin: unset;
+}
+#featured-project > .feature-text > p {
+  max-width: 45ch;
+  line-height: 1.6rem;
+}
+
+#featured-project > .feature-collage {
+  padding: var(--offset) 0;
+  display: flex;
+  max-height: 25rem;
+  grid-column: span 2;
+  border-radius: 0.5rem;
+}
+#featured-project > .feature-collage > img {
+  margin-right: calc(var(--offset) * -0.5);
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem black;
+  max-width: 44%; /* needed for chrome, not firefox */
+}
+#featured-project > .feature-collage > img:first-child {
+  margin-top: calc(var(--offset) * -1);
+  margin-bottom: var(--offset);
+}
+#featured-project > .feature-collage > img:last-child {
+  margin-top: var(--offset);
+  margin-bottom: calc(var(--offset) * -1);
+}
+
+#featured-project > .feature-full-width {
+  text-align: center;
+  grid-column: span 5;
+}
+#featured-project > .feature-full-width > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}

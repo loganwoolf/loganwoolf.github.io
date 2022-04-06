@@ -1,0 +1,24 @@
+#about {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+}
+#about > h2 {
+  padding-bottom: unset;
+}
+#about > .about-content {
+  justify-self: flex-end;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: auto;
+  margin-bottom: auto;
+  gap: 4rem;
+  width: 100%;
+}
+#about > .about-content > img {
+  align-self: center;
+  width: 100%;
+  border-radius: 0.5rem;
+}
