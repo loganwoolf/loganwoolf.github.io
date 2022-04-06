@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 
+import "./About.css";
+
 const About = () => {
   const [body, setBody] = useState([]);
 
@@ -25,7 +27,10 @@ const About = () => {
   return (
     <section id="about">
       <h2>About Me</h2>
-      {paragraphs}
+      <div className="about-content">
+        <div className="about-text">{paragraphs}</div>
+        <img className="about-image" src="images/portrait.jpg" alt="" />
+      </div>
     </section>
   );
 };
