@@ -25,6 +25,7 @@
 #home > .name > h2 {
   font-size: 3.3rem;
   margin: unset;
+  padding: unset;
   font-style: italic;
   text-align: unset;
 }
