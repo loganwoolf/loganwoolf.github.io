@@ -1,19 +1,31 @@
 #home {
-  background-color: black;
-  color: white;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
   min-height: 100vh;
+  background-image: url("/public/blob-scene-haikei.svg");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-#home h1 {
+#home > .name {
+  max-width: calc(100% - 4rem);
+  font-family: 'Oswald', sans-serif;
+  margin: 8rem 6rem;
+  color: lightgray;
+}
+#home > .name > h1 {
+  font-size: 7rem;
   margin: unset;
 }
-#home .separator {
-  width: 9ch;
-  border-bottom: 0.125rem solid white;
-  margin: 2rem 0 2.4rem;
+#home > .name > .separator {
+  width: 16rem;
+  border-bottom: 0.3rem solid lightgray;
+  margin: 2rem 0 3rem;
 }
-#home p {
+#home > .name > h2 {
+  font-size: 3.3rem;
   margin: unset;
   font-style: italic;
+  text-align: unset;
 }

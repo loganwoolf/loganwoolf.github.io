@@ -6,7 +6,7 @@ const Home = (props) => {
       <div className="name">
         <h1>Logan Woolf</h1>
         <div className="separator"></div>
-        <p>Full Stack Web Developer</p>
+        <h2>Full Stack Web Developer</h2>
       </div>
     </header>
   );
