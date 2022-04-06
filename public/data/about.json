@@ -1,5 +1,7 @@
-{ "about": [
-  "I am a full stack web developer from Lethbridge, AB 🇨🇦. I enjoy building things and expanding my knowledge.",
-  "Music has always been a passion of mine. I love playing guitar, recording, singing and entertaining. My other hobbies include investing, target shooting, and handyman work. I also love being a dad!"
+{
+  "about": [
+    "I am a full stack web developer from Lethbridge, AB 🇨🇦. I am passionate about creating intuitive and accessible user experiences for tools that empower all people.",
+    "I am transitioning from a successful career in land surveying to the amazing world of software and web development.",
+    "After learning (some) Javascript and CSS in my spare time, I decided to commit myself to the skill I found so rewarding and enrolled in a full time web development bootcamp."
   ]
 }
