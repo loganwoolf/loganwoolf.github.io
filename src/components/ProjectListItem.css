@@ -8,6 +8,10 @@
   box-shadow: 0 0 2rem black;
   width: 100%;
 }
+#projects > .project-list > .project-list-item > h3 {
+  margin: 1.5rem 0 0.5rem;
+  height: 3.5rem;
+}
 #projects > .project-list > .project-list-item > footer {
   margin-top: auto;
   display: flex;
