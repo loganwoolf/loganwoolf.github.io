@@ -22,7 +22,7 @@ const About = () => {
 
   useEffect(() => getText(), []);
 
-  const paragraphs = body.map((paragraph) => <p>{paragraph}</p>);
+  const paragraphs = body.map((paragraph, index) => <p key={index}>{paragraph}</p>);
 
   return (
     <section id="about">
