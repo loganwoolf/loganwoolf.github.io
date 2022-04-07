@@ -17,7 +17,7 @@
       "title": "tinyAPP URL Shortener",
       "sub": "A server rendered EJS template app where users can shorten URLs and see their visitation statistics.",
       "image": "images/projects/tinyAPP.png",
-      "repo": "https://github.com/loganwoolf/agency-landing"
+      "repo": "https://github.com/loganwoolf/tinyapp"
     },
     {
       "title": "World's Fastest React Dictionary",
