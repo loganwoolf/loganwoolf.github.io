@@ -6,7 +6,9 @@ const ProjectListItem = (props) => {
   const { title, sub, image, link, repo } = props;
   return (
     <article className="project-list-item">
-      <img src={image} alt="project preview" />
+      <a href={link || repo}>
+        <img src={image} alt="project preview" />
+      </a>
       <h3>{title}</h3>
       <p>{sub}</p>
       <footer>
