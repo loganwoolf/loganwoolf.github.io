@@ -14,7 +14,7 @@ const SocialLinks = () => {
         </a>
       </li>
       <li>
-        <a href="http://github.com/loganwoolf">
+        <a href="http://twitter.com/logan__woolf">
           <FontAwesomeIcon icon="fa-brands fa-twitter" />
         </a>
       </li>
