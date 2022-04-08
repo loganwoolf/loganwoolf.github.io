@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "title": "Smart Personal Todo List",
+      "sub": "A full stack todo app using jQuery, Node, Express and Postgres that can automatically classify tasks by analyzing results from several APIs",
+      "image": "images/projects/smart-todo.png",
+      "repo": "https://github.com/loganwoolf/smart-todo-midterm"
+    },
+    {
+      "title": "Sunnyside Agency Landing",
+      "sub": "An HTML/CSS project aiming to replicate a design with pixel perfect accuracy.",
+      "image": "images/projects/agency-landing.png",
+      "link": "https://loganwoolf.github.io/agency-landing",
+      "repo": "https://github.com/loganwoolf/agency-landing"
+    },
+    {
+      "title": "tinyAPP URL Shortener",
+      "sub": "A server rendered EJS template app where users can shorten URLs and see their visitation statistics.",
+      "image": "images/projects/tinyAPP.png",
+      "repo": "https://github.com/loganwoolf/tinyapp"
+    },
+    {
+      "title": "World's Fastest React Dictionary",
+      "sub": "A React app that delivers quick definitions by querying a dictionary API with every keystroke.",
+      "image": "images/projects/dictionary.png",
+      "link": "https://lw-dictionary.netlify.app/",
+      "repo": "https://github.com/loganwoolf/react-dictionary"
+    }
+  ]
+}
