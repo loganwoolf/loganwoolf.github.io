@@ -28,8 +28,8 @@ const About = () => {
     <section id="about">
       <h2>About Me</h2>
       <div className="about-content">
-        <div className="about-text">{paragraphs}</div>
         <img className="about-image" src="images/portrait.jpg" alt="" />
+        <div className="about-text">{paragraphs}</div>
       </div>
     </section>
   );
