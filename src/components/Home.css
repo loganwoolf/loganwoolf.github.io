@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media (min-width: 750px) {
+@media (min-width: 667px) {
   #home {
     --nav-height: 5rem;
   }
