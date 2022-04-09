@@ -2,9 +2,9 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  line-height: 1.5rem;
 }
 #about > .about-content {
+  line-height: 1.5rem;
   --about-width: 50ch;
   display: flex;
   flex-direction: column;
