@@ -1,31 +1,49 @@
 #home {
+  --nav-height: 8.5rem;
   display: grid;
-  grid-template-columns: 1fr;
-  justify-content: center;
-  min-height: 100vh;
+  align-items: center;
+  /* grid-template-columns: 1fr; */
+  min-height: calc(100vh - var(--nav-height));
   background-image: url("/public/blob-scene-haikei.svg");
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media (min-width: 750px) {
+  #home {
+    --nav-height: 5rem;
+  }
+}
 #home > .name {
-  max-width: calc(100% - 4rem);
   font-family: 'Oswald', sans-serif;
-  margin: 8rem 6rem;
+  height: max-content;
+  /* max-width: calc(100% - 4rem);
+  margin: 8rem 6rem; */
+  margin: 0 auto;
+  padding: 1rem;
+  line-height: 1;
+  --font-size: min(30vw, calc(100vh - 8.5rem) * 0.22)
+}
+#home > .name > h1,
+#home > .name > p {
+  display: flex;
+  flex-direction: column;
+  margin: unset;
+  text-align: center;
 }
 #home > .name > h1 {
-  font-size: 7rem;
-  margin: unset;
+  /* font-size: 7rem; */
+  font-size: var(--font-size);
 }
 #home > .name > .separator {
-  width: 16rem;
-  border-bottom: 0.3rem solid lightgray;
-  margin: 2rem 0 3rem;
+  width: 80%;
+  border-bottom: 0.125rem solid lightgray;
+  margin: calc(var(--font-size) / 3) auto;
 }
-#home > .name > h2 {
-  font-size: 3.3rem;
+#home > .name > p {
+  /* font-size: 3.3rem; */
+  font-size: calc(var(--font-size) / 2.5);
   margin: unset;
   padding: unset;
   font-style: italic;
-  text-align: unset;
 }
