@@ -54,6 +54,11 @@ section {
   max-width: 960px;
   min-height: 100vh;
 }
+@media (max-width: 750px) {
+  #home,section {
+    scroll-margin-top: 6rem;
+  }
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
