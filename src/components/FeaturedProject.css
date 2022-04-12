@@ -36,8 +36,8 @@
   border-radius: 0.5rem;
   box-shadow: 0 0 1rem black;
   aspect-ratio: 10/27;
-  width: calc((100% / 3 ) + (var(--offset) / 3)); 
-  max-width: calc((20rem / 3 ) + (var(--offset) / 3)); 
+  width: calc((100% / 3) + (var(--offset) / 3));
+  max-width: calc((20rem / 3) + (var(--offset) / 3));
 }
 #featured-project > .feature-group > .feature-collage > img:first-child {
   margin-top: calc(var(--offset) * -1);
@@ -70,4 +70,27 @@
 }
 #featured-project > .feature-full-width > .feature-links > a:hover {
   opacity: 0.8;
+}
+
+@media (min-width: 667px) {
+  #featured-project > .feature-group {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #featured-project > .feature-group:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+  #featured-project > .feature-group > .feature-image {
+    /* max-height: calc(90vh - var(--nav-height)); */
+    max-width: 30%;
+  }
+  #featured-project > .feature-group > p {
+    margin: 1rem;
+    max-width: min(35ch, 50%);
+  }
+  #featured-project > .feature-group > .feature-collage {
+    margin: 0 2rem 0 1rem;
+    /* width: 40%; */
+  }
 }
