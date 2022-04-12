@@ -1,28 +1,38 @@
 #projects > .project-list > .project-list-item {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  align-items: center;
+  max-width: 400px;
+  height: 100%;
+  margin: auto;
 }
-#projects > .project-list > .project-list-item img {
+#projects > .project-list > .project-list-item > p {
+  max-width: 30ch;
+}
+#projects > .project-list > .project-list-item > a {
+  display: flex;
+  flex-direction: column;
+}
+
+#projects > .project-list > .project-list-item > a > img {
+  margin: 1rem auto;
+  width: 70%;
   border-radius: 0.5rem;
   box-shadow: 0 0 0.5rem lightgrey;
-  width: 100%;
-}
-#projects > .project-list > .project-list-item > h3 {
-  margin: 1.5rem 0 0.5rem;
-  height: 3.5rem;
+  max-width: 100%;
 }
 #projects > .project-list > .project-list-item > footer {
   margin-top: auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 0.5rem;
 }
 
 #projects > .project-list > .project-list-item > footer > a {
-  background-color: lightblue;
+  background-color: lightskyblue;
   color: black;
-  padding: 0.5rem;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
   text-decoration: none;
 }
 #projects > .project-list > .project-list-item > footer > a:hover {

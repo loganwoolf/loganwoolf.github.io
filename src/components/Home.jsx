@@ -4,9 +4,9 @@ const Home = (props) => {
   return (
     <header id="home">
       <div className="name">
-        <h1>Logan Woolf</h1>
+        <h1><span>Logan</span><span>Woolf</span></h1>
         <div className="separator"></div>
-        <h2>Full Stack Web Developer</h2>
+        <p><span>Full Stack</span><span>Web Developer</span></p>
       </div>
     </header>
   );

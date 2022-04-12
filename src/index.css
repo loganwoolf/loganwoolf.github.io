@@ -16,8 +16,9 @@ h6 {
 }
 
 h2 {
+  font-size: 2rem;
   text-align: right;
-  padding: 2rem;
+  padding: 1rem 0;
   margin: 0;
 }
 .wide-bg {
@@ -40,14 +41,20 @@ body {
     "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --nav-height: 8.5rem;
+}
+@media (min-width: 667px) {
+  body {
+    --nav-height: 5rem;
+  }
 }
 
-#home {
-  scroll-margin-top: 3rem;
+#home,
+section {
+  scroll-margin-top: var(--nav-height);
 }
 
 section {
-  scroll-margin-top: 3rem;
   margin: 0 auto;
   padding-left: 2rem;
   padding-right: 2rem;

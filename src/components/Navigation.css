@@ -3,11 +3,16 @@ nav {
   position: sticky;
   top: 0;
   width: 100%;
+  height: var(--nav-height);
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column-reverse;
   justify-content: space-between;
   align-items: center;
+}
+@media (min-width: 667px) {
+  nav {
+    flex-direction: row;
+  }
 }
 nav > ul {
   display: flex;
@@ -18,8 +23,8 @@ nav > ul > li {
   list-style: none;
 }
 nav > ul > li > a {
-  padding: 1rem;
-  font-size: 1.5rem;
+  padding: 0.8rem;
+  font-size: 1.2rem;
   color: var(--light-text);
   text-decoration: none;
 }

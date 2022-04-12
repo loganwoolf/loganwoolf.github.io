@@ -1,5 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+import "./SocialLinks.css";
+
 const SocialLinks = () => {
   return (
     <ul id="social-links">
