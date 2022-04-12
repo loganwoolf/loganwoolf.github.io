@@ -19,6 +19,10 @@
   flex-direction: column;
   padding: 1rem 0;
 }
+#featured-project > .feature-group > p {
+  max-width: 35ch;
+  margin: 1rem auto;
+}
 #featured-project > .feature-group > .feature-image {
   margin: 0 auto;
   width: 70%;
@@ -83,14 +87,12 @@
   #featured-project > .feature-group {
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
   }
   #featured-project > .feature-group:nth-child(odd) {
     flex-direction: row-reverse;
   }
   #featured-project > .feature-group > .feature-image,
   #featured-project > .feature-group > .feature-collage {
-    /* max-height: calc(90vh - var(--nav-height)); */
     max-width: 30%;
   }
   #featured-project > .feature-group > p {

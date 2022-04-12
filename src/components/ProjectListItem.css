@@ -6,6 +6,9 @@
   height: 100%;
   margin: auto;
 }
+#projects > .project-list > .project-list-item > p {
+  max-width: 30ch;
+}
 #projects > .project-list > .project-list-item > a {
   display: flex;
   flex-direction: column;
